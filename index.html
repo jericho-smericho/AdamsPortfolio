@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Leigh Adams - Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header id="jumbotron" class="container-lg mb-auto">
+      <div
+        class="cover-container jumbotron p-3 mx-auto flex-column rounded text-body-emphasis"
+      >
+        <div class="row">
+          <nav
+            class="nav nav-masthead justify-content-center float-md-end text-center"
+          >
+            <a class="nav-link py-1 px-0" href="#aboutMe">About Me</a>
+            <a class="nav-link py-1 px-0" href="#projects">Projects</a>
+            <a class="nav-link py-1 px-0" href="#gallery">Gallery</a>
+            <a class="nav-link py-1 px-0" href="#contact">Contact Me!</a>
+          </nav>
+        </div>
+        <!--col-lg-6 bg-info <ul class="list-inline">
+            <li class="list-inline-item text-center"></li>
+            <li class="list-inline-item text-center"></li>
+          </ul>-->
+        <div class="row jumbotron text-white text-center">
+          <h1 id="name"class="display-1 text-center">Leigh Adams</h1>
+        </div>
+        <div class="row">
+          <h6 class="display-9 text-center">
+            Web Dev + Design, UX + UI Design
+          </h5>
+        </div>
+      </div>
+    </header>
+
+    <div class="container-md container-sm">
+      <div class="row">
+        <div class="col-md-9 py-2">
+          <div class="container-sm">
+            <br />
+            <h1 id="pTitle"class="text-center display-1">Projects</h1>
+            <br />
+            <div id="projects" class="row">
+              <div id="todo" class="col-sm">
+                <div id="cardShadow" class="card shadow-sm">
+                  <img
+                    src="./img/place-holder.png"
+                    width="100%"
+                    height="347px"
+                  />
+                  <div class="card-body">
+                    <h4 class="text-center align-items-center">
+                      To Do List App
+                    </h4>
+                  </div>
+                  <div id="btnPart" class="d-flex justify-content-center align-items-center">
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-outline-secondary"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#todoText"
+                      >
+                        Details
+                      </button>
+                    </div>
+                  </div>
+                  <div id="todoText" class="collapse">
+                    <ul>
+                      <li>
+                        purpose: An app that's designed to track completed and
+                        uncompleted tasks with set deadlines
+                      </li>
+                      <li>tech: react native, nodeJS, Expo</li>
+                      <li>
+                        skills: expo for cross-platforming, react native UI
+                        components, real time updates with state management
+                      </li>
+                      <li>
+                        problem: separating the completed and uncompleted tasks
+                        from each other, I had to completely switch methods and
+                        just filter out the comleted and uncompleted tasks it
+                        worked. The best solutions are simplest ones, and that's
+                        the biggest thing I learned in this project: always go
+                        for the simplest answer.
+                      </li>
+                      <li>
+                        highlight: The color scheme used is designed to motivate
+                        (red) and focus (blue) the user. The overall look of the
+                        app is to be reminiscent of a corkboard set up, moving
+                        posted notes fromone category to the other to keep track
+                        of the days accomplishments.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!--<div></div>-->
+              </div>
+              <div id="rExercise" class="col-sm">
+                <div id="cardShadow"class="card shadow-sm">
+                  <img
+                    src="./img/place-holder.png"
+                    width="100%"
+                    height="347px"
+                  />
+                  <div class="card-body">
+                    <h4 class="text-center align-items-center">
+                      React Exercise App
+                    </h4>
+                  </div>
+                  <div id="btnPart"class="d-flex justify-content-center align-items-center">
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-outline-secondary"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#rExText"
+                      >
+                        Details
+                      </button>
+                    </div>
+                  </div>
+                  <div id="rExText" class="collapse">
+                    <ul>
+                      <li>
+                        purpose: To keep track of time and count reps for varius
+                        exercises
+                      </li>
+                      <li>tech: react, nodeJS</li>
+                      <li>
+                        skills: react for state management, javascript for
+                        functionality(?*)
+                      </li>
+                      <li>
+                        problem: This was one of the first React apps that I had
+                        made, so most of my issues was adjusting to a new type
+                        of language and how to use all the methods and
+                        components. Going through the React developer website
+                        and getting familiar with all the funtions was such a
+                        great help.
+                      </li>
+                      <li>
+                        highlight: This app focuses more on function rather than
+                        design, it's built to make operating it as easy as
+                        possible
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              
+                <div class="card shadow-sm">
+                  <img
+                    src="./img/place-holder.png"
+                    width="100%"
+                    height="347px"
+                  />
+                  <div class="card-body">
+                    <h4></h4>
+                  </div>
+                  <div class="d-flex justify-content-center align-items-center">
+                    <div class="btn-group">
+                      <button
+                      type="button"
+                      class="btn btn-outline-secondary"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#"
+                    >
+                      Details
+                    </button>
+                    </div>
+                  </div>
+                </div>
+              </div>-->
+              <br />
+            </div>
+            <h1 id="gTitle" class="text-center display-1">Gallery</h1>
+            <div id="gallery" class="row">
+              <div class="col-md-9 py-2">
+                <div class="container-md">
+                  <div class="row">
+                    <div class="col-sm py-2">
+                      <img
+                        src="img/gallery-placeholder.png"
+                        width="250px"
+                        height="134px"
+                      />
+                    </div>
+                    <div class="col-sm py-2">
+                      <img
+                        src="img/gallery-placeholder.png"
+                        width="250px"
+                        height="134px"
+                      />
+                    </div>
+                    <div class="col-sm py-2">
+                      <img
+                        src="img/gallery-placeholder.png"
+                        width="250px"
+                        height="134px"
+                      />
+                    </div>
+                    <div class="col-sm py-2">
+                      <img
+                        src="img/gallery-placeholder.png"
+                        width="250px"
+                        height="134px"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="col-md-3">
+          <div class="sticky-top">
+            <div
+              id="aboutMe"
+              class="p-3 mb-3 rounded bordr border-dark"
+            >
+              <h1>ABOUT ME</h1>
+              <p>
+                My name is Leigh Adams and I'm a web developer! Graduating from
+                University of Central Florida I have experience in frontend and
+                backend web development, graphic design. I'm also quite capable
+                in UX/UI design, art, and printmaking. I'm beyond excited to
+                make your acquaintance and achieve greatness with you!
+              </p>
+            </div>
+            <div id="cmMini" class="p-4 mb-3 rounded border border-primary">
+              <h1>CONTACT ME</h1>
+              <ul>
+                <li>LinkedIn:</li>
+                <li>E-Mail:</li>
+                <li>example:</li>
+              </ul>
+            </div>
+            <!--<div id="education" class="p-4 mb-3 rounded border border-primary">
+              <h1>EDUCATION</h1>
+              <ul>
+                <li>University of Central Florida</li>
+                <li>Bachelor of Science - Digital Media - Web Design Track</li>
+                <li>Florida Medallion Scholars Scholarship Recipient</li>
+              </ul>
+            </div>-->
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <header id="contact"><h2>CONTACT ME</h2></header>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
