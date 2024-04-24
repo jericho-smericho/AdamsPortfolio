@@ -96,7 +96,7 @@
   a{
     text-decoration-line: none;
     text-decoration-color: #361FAD;
-    margin: 5px;
+    margin: 15px;
    color: #361FAD;
    font-weight: 300;
   }
@@ -106,18 +106,37 @@
   #gTitle{
     color: #05001e;
   }
-  #aboutMe{
+  h3{
+    font-size: 35px;
+  }
+  img{
+    margin: 3px;
+    padding: 1px;
     background-color: #361FAD;
+  }
+  #aboutMe{
+    padding: 3px;
+    margin: 10px;
+    background-color: #361FAD;
+    font-size: 20px;
+  }
+  footer{
+    background-color: #361FAD;
+    margin-top: 40px;
   }
   #cmMini{
     background-color: #361FAD;
+    padding: 10px;
+    padding-bottom: 50px;
+    margin-top: 40px;
+    margin-bottom: 0;
   }
   .card-body{
     background-color: #361FAD;
   }
   #cardShadow{
     background-color: #361FAD;
-    padding: 2px;
+    padding: 5px;
   }
   #btnPart{
     background-color: #361FAD;

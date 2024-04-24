@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <header id="jumbotron" class="container-lg mb-auto">
+    <header id="jumbotron" class="container-lg-15 mb-auto">
       <div
         class="cover-container jumbotron p-3 mx-auto flex-column rounded text-body-emphasis"
       >
@@ -44,19 +44,50 @@
 
     <div class="container-md container-sm">
       <div class="row">
-        <div class="col-md-9 py-2">
+        <div id="persSidebar"class="col-md">
+          <!--<div class="sticky-top"></div>-->
+            <div
+              id="aboutMe"
+              class="container p-3 mb-3 rounded bordr border-dark align-items-center"
+            >
+            <div class="row">
+              <h3 class="text-center">ABOUT ME</h3>
+              <div class="col-sm-3" >
+              <img class="rounded-circle" src="img/linkin-prof.PNG" width="250px">
+              </div>
+              <div class="col-md-9">
+              <p>
+                My name is Leigh Adams and I am passionate web developer with a penchant for crafting engaging and innovative online experiences. With 2 years of experience in the ever-evolving realm of web development, I thrive on turning ideas into reality through clean, efficient code and intuitive 
+               design.</p>
+               <p> 
+                I found my way into web development from doing art and printmaking, a change completely out of left field. But that background has been instrumental in my approach to web design + development. Over the past couple years, I've advanced my skills in a variety of programming languages and frameworks, including Javascript, PHP, MySQL, React, React Native, nodeJs, and Expo, allowing me to tackle projects with versatility and expertise.
+              </p> 
+              <p>
+               Beyond the technical aspects, I take pride in my ability to understand the users' needs and translate them into dynamic, user-centric websites and applications. Whether it's building responsive layouts or implementing cutting-edge features, I'm committed to delivering solutions that not only meet but exceed expectations.
+               </p>
+               <p>
+               When I'm not immersed in lines of code, you can find me exploring the latest trends in web development, working on my own pieces/ projects. or seeking inspiration from art, design, and nature. I'm a firm believer in lifelong learning and continuously strive to expand my skill set to stay ahead in this dynamic industry. I'm beyond excited to make your acquaintance and achieve greatness with you!
+              </p>
+            </div>
+            </div>
+              
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-15 py-2">
           <div class="container-sm">
             <br />
-            <h1 id="pTitle"class="text-center display-1">Projects</h1>
+            <h1 id="pTitle"class="text-center display-1">React + React Native Projects</h1>
             <br />
             <div id="projects" class="row">
               <div id="todo" class="col-sm">
                 <div id="cardShadow" class="card shadow-sm">
-                  <img
-                    src="./img/place-holder.png"
-                    width="100%"
-                    height="347px"
-                  />
+                  <video width="100%"
+                    height="347px" controls>
+                    <source src="./img/todoapp-real.mp4" type="video/mp4">
+                    Video format not supported
+                </video>
                   <div class="card-body">
                     <h4 class="text-center align-items-center">
                       To Do List App
@@ -107,11 +138,11 @@
               </div>
               <div id="rExercise" class="col-sm">
                 <div id="cardShadow"class="card shadow-sm">
-                  <img
-                    src="./img/place-holder.png"
-                    width="100%"
-                    height="347px"
-                  />
+                  <video width="100%"
+                  height="347px" controls>
+                  <source src="img/rexapp-real.mp4" type="video/mp4">
+                  Video format not supported 
+                </video>
                   <div class="card-body">
                     <h4 class="text-center align-items-center">
                       React Exercise App
@@ -157,109 +188,123 @@
                   </div>
                 </div>
               </div>
-              
-                <div class="card shadow-sm">
-                  <img
-                    src="./img/place-holder.png"
-                    width="100%"
-                    height="347px"
-                  />
+              <div id="rnExercise" class="col-sm">
+                <div id="cardShadow" class="card shadow-sm">
+                  <video width="100%"height="374px" controls>
+                    <source src="img/rnexapp-real.mp4" type="video/mp4">
+                    Video format not supported
+                  </video> 
                   <div class="card-body">
-                    <h4></h4>
+                    <h4>React Native Exercise App</h4>
                   </div>
                   <div class="d-flex justify-content-center align-items-center">
-                    <div class="btn-group">
+                    <div id="btnPart"class="btn-group">
                       <button
                       type="button"
                       class="btn btn-outline-secondary"
                       data-bs-toggle="collapse"
-                      data-bs-target="#"
+                      data-bs-target="#exText"
                     >
                       Details
                     </button>
                     </div>
                   </div>
+                  <div id="exText" class="collapse">
+                    <ul>
+                      <li>Purpose: An exercise app to keep track of exercise duration and number of reps.</li>
+                      <li>Tech: React, React Native, nodeJS, Expo</li>
+                      <li>Skills: expo for cross-platforming, react native UI
+                        components, real time updates with state management</li>
+                      <li>Problem: There's a feature that suggests a randomized exercise, and getting it to display properly and give actually random results was a bit ofa hassle. Most of the issue was debugging though.</li>
+                      <li>Highlight:I chose a warmer color pallete to stimulate the mind and kept it nearly monotone to keep things simple and allow the user to focus on the exercise rather than the app</li>
+                    </ul>
+                  </div>
                 </div>
-              </div>-->
+              </div>
+              <div id="quizApp" class="col-sm">
+                <div id="cardShadow" class="card shadow-sm">
+                  <video width="100%"height="374px" controls>
+                    <source src="img/quizapp-real.mp4" type="video/mp4">
+                    video type not supported</video>
+                    <div class="card-body">
+                      <h4 class="text-center justify-content-center">Quiz App</h4>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center">
+                      <div id="btn-group" class="btn-group">
+                        <button
+                      type="button"
+                      class="btn btn-outline-secondary"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#quizText"
+                    >
+                      Details
+                    </button>
+                      </div>
+                    </div>
+                    <div id="quizText" class="collapse">
+                      <ul>
+                        <li>Purpose: An app that displays and grades a set of questions</li>
+                        <li>Tech: React Native, nodeJS, Expo</li>
+                        <li>Skills: expo for cross-platforming, react native UI components, real time updates with state management</li>
+                        <li>Problem: The biggest issue was just grading the assignments. This was solvable through checking my logic and ensuring that the right components were being used</li>
+                        <li>Highlight: The design was made to be simple to keep the user focused on the task at hand but still have a cheery and bright look to it.</li>
+                      </ul>
+                    </div>
+                </div>
+              </div>
+              </div>
               <br />
             </div>
-            <h1 id="gTitle" class="text-center display-1">Gallery</h1>
+            <h1 id="gTitle" class="text-center display-1">UX + UI Gallery</h1>
             <div id="gallery" class="row">
-              <div class="col-md-9 py-2">
+              <div class="col-md-15 py-2">
                 <div class="container-md">
                   <div class="row">
                     <div class="col-sm py-2">
-                      <img
-                        src="img/gallery-placeholder.png"
-                        width="250px"
-                        height="134px"
+                      <img id="img"
+                        src="img/todo-wf1.PNG" 
+                        width="450px"
                       />
                     </div>
                     <div class="col-sm py-2">
-                      <img
-                        src="img/gallery-placeholder.png"
-                        width="250px"
-                        height="134px"
+                      <img id="img"
+                        src="img/todo-wf2.PNG" width="450px"/>
+                    </div>
+                    <div class="col-sm py-2">
+                      <img id="img"
+                        src="img/undg-hi3.PNG"
+                        width="165px"
                       />
                     </div>
                     <div class="col-sm py-2">
-                      <img
-                        src="img/gallery-placeholder.png"
-                        width="250px"
-                        height="134px"
+                      <img id="img"
+                        src="img/ucantu-wf.PNG"
+                        width="600px"
                       />
                     </div>
                     <div class="col-sm py-2">
-                      <img
-                        src="img/gallery-placeholder.png"
-                        width="250px"
-                        height="134px"
-                      />
+                      <img id="img" src="img/undg-hi1.PNG" width="450px">
+                    </div>
+                    <div class="col-sm py-2">
+                      <img id="img" src="img/exfries-wf.PNG" width="750px">
+                    </div><!---->
+                    <div class="col-sm py-2">
+                      <img id="img" src="img/studycard-wf.PNG" width="400px">
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <br />
-        <div class="col-md-3">
-          <div class="sticky-top">
-            <div
-              id="aboutMe"
-              class="p-3 mb-3 rounded bordr border-dark"
-            >
-              <h1>ABOUT ME</h1>
-              <p>
-                My name is Leigh Adams and I'm a web developer! Graduating from
-                University of Central Florida I have experience in frontend and
-                backend web development, graphic design. I'm also quite capable
-                in UX/UI design, art, and printmaking. I'm beyond excited to
-                make your acquaintance and achieve greatness with you!
-              </p>
-            </div>
-            <div id="cmMini" class="p-4 mb-3 rounded border border-primary">
-              <h1>CONTACT ME</h1>
-              <ul>
-                <li>LinkedIn:</li>
-                <li>E-Mail:</li>
-                <li>example:</li>
-              </ul>
-            </div>
-            <!--<div id="education" class="p-4 mb-3 rounded border border-primary">
-              <h1>EDUCATION</h1>
-              <ul>
-                <li>University of Central Florida</li>
-                <li>Bachelor of Science - Digital Media - Web Design Track</li>
-                <li>Florida Medallion Scholars Scholarship Recipient</li>
-              </ul>
-            </div>-->
-          </div>
-        </div>
+      </div>
       </div>
     </div>
-    <footer>
+    <footer id="cmMini" class="container-md-15 mb-3 rounded border border-primary">
       <header id="contact"><h2>CONTACT ME</h2></header>
+        <nav>
+          <a href="www.linkedin.com/in/leigh-adams-3a6a892b7"><img src="img/LinkedIn-Blue-26@2x.png"></a>
+          <a href="mailto:spacecanari@gmail.com?subject=Portfolio Inquiry"><img src="img/icons8-email-64.png"></a>
+        </nav>
     </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
