@@ -1,0 +1,22 @@
+a passionate web developer with a penchant for crafting engaging
+ and innovative online experiences. With 2 years of experience 
+in the ever-evolving realm of web development, I thrive on turning 
+ideas into reality through clean, efficient code and intuitive 
+design.
+
+I found my way into web development from doing art and printmaking,
+ a change completely out of left field. But that background has been 
+instrumental in my approach to web design + development. Over the past couple years, 
+I've advanced my skills in a variety of programming languages and frameworks, 
+including Javascript, PHP, MySQL, React, React Native, nodeJs, and Expo, allowing 
+me to tackle projects with versatility and expertise. 
+
+Beyond the technical aspects, I take pride in my ability to understand the users' needs 
+and translate them into dynamic, user-centric websites and applications. Whether it's 
+building responsive layouts or implementing cutting-edge features, 
+I'm committed to delivering solutions that not only meet but exceed expectations.
+
+When I'm not immersed in lines of code, you can find me exploring the latest trends 
+in web development, working on my own pieces/ projects. or seeking inspiration from art, design, and nature. I'm a firm believer 
+in lifelong learning and continuously strive to expand my skill set to stay ahead in this 
+dynamic industry.
