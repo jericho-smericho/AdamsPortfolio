@@ -16,295 +16,361 @@
     <header id="jumbotron" class="container-lg-15 mb-auto">
       <div
         class="cover-container jumbotron p-3 mx-auto flex-column rounded text-body-emphasis"
-      >
-        <div class="row">
-          <nav
-            class="nav nav-masthead justify-content-center float-md-end text-center"
-          >
-            <a class="nav-link py-1 px-0" href="#aboutMe">About Me</a>
-            <a class="nav-link py-1 px-0" href="#projects">Projects</a>
-            <a class="nav-link py-1 px-0" href="#gallery">Gallery</a>
-            <a class="nav-link py-1 px-0" href="#contact">Contact Me!</a>
-          </nav>
-        </div>
-        <!--col-lg-6 bg-info <ul class="list-inline">
-            <li class="list-inline-item text-center"></li>
-            <li class="list-inline-item text-center"></li>
-          </ul>-->
-        <div class="row jumbotron text-white text-center">
-          <h1 id="name"class="display-1 text-center">Leigh Adams</h1>
-        </div>
-        <div class="row">
-          <h6 class="display-9 text-center">
-            Web Dev + Design, UX + UI Design
-          </h5>
-        </div>
+      ></div>
+      <div class="row jumbotron text-white text-center">
+        <h1 id="name" class="display-1 text-center">Leigh Adams</h1>
+      </div>
+      <div class="row">
+        <h6 class="display-9 text-center">Web Dev + Design, UX + UI Design</h6>
       </div>
     </header>
-
-    <div class="container-md container-sm">
+    <div class="container p-3 mx-auto flex-column rounded text-body-emphasis">
       <div class="row">
-        <div id="persSidebar"class="col-md">
-          <!--<div class="sticky-top"></div>-->
-            <div
-              id="aboutMe"
-              class="container p-3 mb-3 rounded bordr border-dark align-items-center"
-            >
-            <div class="row">
-              <h3 class="text-center">ABOUT ME</h3>
-              <div class="col-sm-3" >
-              <img class="rounded-circle" src="img/linkin-prof.PNG" width="250px">
-              </div>
-              <div class="col-md-9">
-              <p>
-                My name is Leigh Adams and I am passionate web developer with a penchant for crafting engaging and innovative online experiences. With 2 years of experience in the ever-evolving realm of web development, I thrive on turning ideas into reality through clean, efficient code and intuitive 
-               design.</p>
-               <p> 
-                I found my way into web development from doing art and printmaking, a change completely out of left field. But that background has been instrumental in my approach to web design + development. Over the past couple years, I've advanced my skills in a variety of programming languages and frameworks, including Javascript, PHP, MySQL, React, React Native, nodeJs, and Expo, allowing me to tackle projects with versatility and expertise.
-              </p> 
-              <p>
-               Beyond the technical aspects, I take pride in my ability to understand the users' needs and translate them into dynamic, user-centric websites and applications. Whether it's building responsive layouts or implementing cutting-edge features, I'm committed to delivering solutions that not only meet but exceed expectations.
-               </p>
-               <p>
-               When I'm not immersed in lines of code, you can find me exploring the latest trends in web development, working on my own pieces/ projects. or seeking inspiration from art, design, and nature. I'm a firm believer in lifelong learning and continuously strive to expand my skill set to stay ahead in this dynamic industry. I'm beyond excited to make your acquaintance and achieve greatness with you!
-              </p>
+        <nav
+          class="nav nav-masthead justify-content-center float-md-end text-center"
+        >
+          <a class="nav-link py-1 px-0" href="#aboutMe" data-bs-toggle="tab"
+            >About Me</a
+          >
+          <a
+            class="nav-link py-1 px-0"
+            href="#projects-tab"
+            data-bs-toggle="tab"
+            >Projects</a
+          >
+          <a class="nav-link py-1 px-0" href="#gallery-tab" data-bs-toggle="tab"
+            >Gallery</a
+          >
+          <a class="nav-link py-1 px-0" href="#contact-tab" data-bs-toggle="tab"
+            >Contact Me!</a
+          >
+        </nav>
+      </div>
+    </div>
+
+    <!--Tab groups-->
+    <div class="tab-content" id="content">
+      <div id="aboutMe" class="tab-pane fade show active" role="tabpanel">
+        <div class="row">
+          <div class="col-sm" id="prof-pic">
+            <img
+              class="rounded-circle img-fluid"
+              src="img/linkin-prof.PNG"
+              width="250px"
+            />
+          </div>
+          <div class="col-md-9 col-md" id="parag">
+            <p>
+              A web developer with a penchant for creative solutions and a
+              healthy fear of spiders, I take joy in finding creative solutions
+              for both web applications and software to ensure the best
+              experience for users. Throughout my time, I've switched between
+              developing my technical skills (Javascript, PHP, MySQL, React) and
+              more creative endeavors, such as design, art, and printmaking.
+              Working with both of these different mediums have not only
+              informed how I approach developing web applications but also
+              improved how I build and design them. With my background, I bring
+              a unique skillset to whatever project I touch. I'm beyond excited
+              to make your acquaintance and achieve greatness with you.
+            </p>
+          </div>
+        </div>
+        <div id="skillSect" class="row">
+          <div class="row">
+            <h3 id="pBar" style="color: #361fad">HTML5</h3>
+            <div class="progress" style="height: 15px">
+              <div
+                class="progress-bar active colorOne"
+                role="progressbar"
+                style="width: 95%"
+                aria-valuenow="95"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
             </div>
+          </div>
+          <div class="row">
+            <h3 id="pBar" style="color: #502097">CSS</h3>
+            <div class="progress" style="height: 15px">
+              <div
+                class="progress-bar active colorTwo"
+                role="progressbar"
+                style="width: 85%"
+                aria-valuenow="85"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
             </div>
-              
+          </div>
+          <div class="row">
+            <h3 id="pBar" style="color: #662184">Javascript</h3>
+            <div class="progress" style="height: 15px">
+              <div
+                class="progress-bar colorThree"
+                role="progressbar"
+                style="width: 75%"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <div class="row">
+            <h3 id="pBar" style="color: #7c2271">PHP</h3>
+            <div class="progress" style="height: 15px">
+              <div
+                class="progress-bar colorFour"
+                role="progressbar"
+                style="width: 75%"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <div class="row">
+            <h3 id="pBar" style="color: #bf2438">MySQL</h3>
+            <div class="progress" style="height: 15px">
+              <div
+                class="progress-bar colorFive"
+                role="progressbar"
+                style="width: 85%"
+                aria-valuenow="85"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <div class="row">
+            <h3 id="pBar" style="color: #d72523">React.JS</h3>
+            <div class="progress" style="height: 15px">
+              <div
+                class="progress-bar colorSix"
+                role="progressbar"
+                style="width: 75%"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <div class="row">
+            <h3 id="pBar" style="color: #e92613">React Native</h3>
+            <div class="progress" style="height: 15px">
+              <div
+                class="progress-bar colorSeven"
+                role="progressbar"
+                style="width: 70%"
+                aria-valuenow="70"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <div class="row">
+            <h3 id="pBar" style="color: #ff2700">Sass</h3>
+            <div class="progress" style="height: 15px">
+              <div
+                class="progress-bar colorEight"
+                role="progressbar"
+                style="width: 65%"
+                aria-valuenow="65"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-15 py-2">
-          <div class="container-sm">
-            <br />
-            <h1 id="pTitle"class="text-center display-1">React + React Native Projects</h1>
-            <br />
-            <div id="projects" class="row">
-              <div id="todo" class="col-sm">
-                <div id="cardShadow" class="card shadow-sm">
-                  <video width="100%"
-                    height="347px" controls>
-                    <source src="./img/todoapp-real.mp4" type="video/mp4">
-                    Video format not supported
-                </video>
-                  <div class="card-body">
-                    <h4 class="text-center align-items-center">
-                      To Do List App
-                    </h4>
-                  </div>
-                  <div id="btnPart" class="d-flex justify-content-center align-items-center">
-                    <div class="btn-group">
-                      <button
-                        type="button"
-                        class="btn btn-outline-secondary"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#todoText"
-                      >
-                        Details
-                      </button>
-                    </div>
-                  </div>
-                  <div id="todoText" class="collapse">
-                    <ul>
-                      <li>
-                        purpose: An app that's designed to track completed and
-                        uncompleted tasks with set deadlines
-                      </li>
-                      <li>tech: react native, nodeJS, Expo</li>
-                      <li>
-                        skills: expo for cross-platforming, react native UI
-                        components, real time updates with state management
-                      </li>
-                      <li>
-                        problem: separating the completed and uncompleted tasks
-                        from each other, I had to completely switch methods and
-                        just filter out the comleted and uncompleted tasks it
-                        worked. The best solutions are simplest ones, and that's
-                        the biggest thing I learned in this project: always go
-                        for the simplest answer.
-                      </li>
-                      <li>
-                        highlight: The color scheme used is designed to motivate
-                        (red) and focus (blue) the user. The overall look of the
-                        app is to be reminiscent of a corkboard set up, moving
-                        posted notes fromone category to the other to keep track
-                        of the days accomplishments.
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <!--<div></div>-->
+      <div id="projects-tab" class="tab-pane fade container" role="tabpanel">
+        <div class="row">
+          <div id="todo" class="col-sm">
+            <div id="cardShadow" class="card shadow-sm">
+              <video width="100%" height="347px" controls>
+                <source src="./img/todoapp-real.mp4" type="video/mp4" />
+                Video format not supported
+              </video>
+              <div class="card-body">
+                <h4 class="text-center align-items-center">To Do List App</h4>
               </div>
-              <div id="rExercise" class="col-sm">
-                <div id="cardShadow"class="card shadow-sm">
-                  <video width="100%"
-                  height="347px" controls>
-                  <source src="img/rexapp-real.mp4" type="video/mp4">
-                  Video format not supported 
-                </video>
-                  <div class="card-body">
-                    <h4 class="text-center align-items-center">
-                      React Exercise App
-                    </h4>
-                  </div>
-                  <div id="btnPart"class="d-flex justify-content-center align-items-center">
-                    <div class="btn-group">
-                      <button
-                        type="button"
-                        class="btn btn-outline-secondary"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#rExText"
-                      >
-                        Details
-                      </button>
-                    </div>
-                  </div>
-                  <div id="rExText" class="collapse">
-                    <ul>
-                      <li>
-                        purpose: To keep track of time and count reps for varius
-                        exercises
-                      </li>
-                      <li>tech: react, nodeJS</li>
-                      <li>
-                        skills: react for state management, javascript for
-                        functionality(?*)
-                      </li>
-                      <li>
-                        problem: This was one of the first React apps that I had
-                        made, so most of my issues was adjusting to a new type
-                        of language and how to use all the methods and
-                        components. Going through the React developer website
-                        and getting familiar with all the funtions was such a
-                        great help.
-                      </li>
-                      <li>
-                        highlight: This app focuses more on function rather than
-                        design, it's built to make operating it as easy as
-                        possible
-                      </li>
-                    </ul>
-                  </div>
+              <div
+                id="btnPart"
+                class="d-flex justify-content-center align-items-center"
+              >
+                <div class="btn-group">
+                  <button
+                    type="button"
+                    class="btn btn-outline-secondary"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#todoText"
+                  >
+                    Details
+                  </button>
                 </div>
               </div>
-              <div id="rnExercise" class="col-sm">
-                <div id="cardShadow" class="card shadow-sm">
-                  <video width="100%"height="374px" controls>
-                    <source src="img/rnexapp-real.mp4" type="video/mp4">
-                    Video format not supported
-                  </video> 
-                  <div class="card-body">
-                    <h4>React Native Exercise App</h4>
-                  </div>
-                  <div class="d-flex justify-content-center align-items-center">
-                    <div id="btnPart"class="btn-group">
-                      <button
-                      type="button"
-                      class="btn btn-outline-secondary"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#exText"
-                    >
-                      Details
-                    </button>
-                    </div>
-                  </div>
-                  <div id="exText" class="collapse">
-                    <ul>
-                      <li>Purpose: An exercise app to keep track of exercise duration and number of reps.</li>
-                      <li>Tech: React, React Native, nodeJS, Expo</li>
-                      <li>Skills: expo for cross-platforming, react native UI
-                        components, real time updates with state management</li>
-                      <li>Problem: There's a feature that suggests a randomized exercise, and getting it to display properly and give actually random results was a bit ofa hassle. Most of the issue was debugging though.</li>
-                      <li>Highlight:I chose a warmer color pallete to stimulate the mind and kept it nearly monotone to keep things simple and allow the user to focus on the exercise rather than the app</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div id="quizApp" class="col-sm">
-                <div id="cardShadow" class="card shadow-sm">
-                  <video width="100%"height="374px" controls>
-                    <source src="img/quizapp-real.mp4" type="video/mp4">
-                    video type not supported</video>
-                    <div class="card-body">
-                      <h4 class="text-center justify-content-center">Quiz App</h4>
-                    </div>
-                    <div class="d-flex justify-content-center align-items-center">
-                      <div id="btn-group" class="btn-group">
-                        <button
-                      type="button"
-                      class="btn btn-outline-secondary"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#quizText"
-                    >
-                      Details
-                    </button>
-                      </div>
-                    </div>
-                    <div id="quizText" class="collapse">
-                      <ul>
-                        <li>Purpose: An app that displays and grades a set of questions</li>
-                        <li>Tech: React Native, nodeJS, Expo</li>
-                        <li>Skills: expo for cross-platforming, react native UI components, real time updates with state management</li>
-                        <li>Problem: The biggest issue was just grading the assignments. This was solvable through checking my logic and ensuring that the right components were being used</li>
-                        <li>Highlight: The design was made to be simple to keep the user focused on the task at hand but still have a cheery and bright look to it.</li>
-                      </ul>
-                    </div>
-                </div>
-              </div>
-              </div>
-              <br />
-            </div>
-            <h1 id="gTitle" class="text-center display-1">UX + UI Gallery</h1>
-            <div id="gallery" class="row">
-              <div class="col-md-15 py-2">
-                <div class="container-md">
-                  <div class="row">
-                    <div class="col-sm py-2">
-                      <img id="img"
-                        src="img/todo-wf1.PNG" 
-                        width="450px"
-                      />
-                    </div>
-                    <div class="col-sm py-2">
-                      <img id="img"
-                        src="img/todo-wf2.PNG" width="450px"/>
-                    </div>
-                    <div class="col-sm py-2">
-                      <img id="img"
-                        src="img/undg-hi3.PNG"
-                        width="165px"
-                      />
-                    </div>
-                    <div class="col-sm py-2">
-                      <img id="img"
-                        src="img/ucantu-wf.PNG"
-                        width="600px"
-                      />
-                    </div>
-                    <div class="col-sm py-2">
-                      <img id="img" src="img/undg-hi1.PNG" width="450px">
-                    </div>
-                    <div class="col-sm py-2">
-                      <img id="img" src="img/exfries-wf.PNG" width="750px">
-                    </div><!---->
-                    <div class="col-sm py-2">
-                      <img id="img" src="img/studycard-wf.PNG" width="400px">
-                    </div>
-                  </div>
-                </div>
+              <div id="todoText" class="collapse">
+                <ul>
+                  <li>
+                    An app that's designed to track completed and uncompleted
+                    tasks with set deadlines
+                  </li>
+                  <li>Tech: React Native, NodeJS, Expo</li>
+                </ul>
               </div>
             </div>
           </div>
+          <div id="rExercise" class="col-sm">
+            <div id="cardShadow" class="card shadow-sm">
+              <video width="100%" height="347px" controls>
+                <source src="img/rexapp-real.mp4" type="video/mp4" />
+                Video format not supported
+              </video>
+              <div class="card-body">
+                <h4 class="text-center align-items-center">
+                  React Exercise App
+                </h4>
+              </div>
+              <div
+                id="btnPart"
+                class="d-flex justify-content-center align-items-center"
+              >
+                <div class="btn-group">
+                  <button
+                    type="button"
+                    class="btn btn-outline-secondary"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#rExText"
+                  >
+                    Details
+                  </button>
+                </div>
+              </div>
+              <div id="rExText" class="collapse">
+                <ul>
+                  <li>
+                    To keep track of time and count reps for various exercises
+                  </li>
+                  <li>Tech: React, NodeJS</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div id="rnExercise" class="col-sm">
+            <div id="cardShadow" class="card shadow-sm">
+              <video width="100%" height="374px" controls>
+                <source src="img/rnexapp-real.mp4" type="video/mp4" />
+                Video format not supported
+              </video>
+              <div class="card-body">
+                <h4>React Native Exercise App</h4>
+              </div>
+              <div class="d-flex justify-content-center align-items-center">
+                <div id="btnPart" class="btn-group">
+                  <button
+                    type="button"
+                    class="btn btn-outline-secondary"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#exText"
+                  >
+                    Details
+                  </button>
+                </div>
+              </div>
+              <div id="exText" class="collapse">
+                <ul>
+                  <li>
+                    An exercise app to keep track of exercise duration and
+                    number of reps.
+                  </li>
+                  <li>Tech: React, React Native, NodeJS, Expo</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div id="quizApp" class="col-sm">
+            <div id="cardShadow" class="card shadow-sm">
+              <video width="100%" height="374px" controls>
+                <source src="img/quizapp-real.mp4" type="video/mp4" />
+                Video format not supported
+              </video>
+              <div class="card-body">
+                <h4 class="text-center justify-content-center">Quiz App</h4>
+              </div>
+              <div class="d-flex justify-content-center align-items-center">
+                <div id="btn-group" class="btn-group">
+                  <button
+                    type="button"
+                    class="btn btn-outline-secondary"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#quizText"
+                  >
+                    Details
+                  </button>
+                </div>
+              </div>
+              <div id="quizText" class="collapse">
+                <ul>
+                  <li>An app that displays and grades a set of questions</li>
+                  <li>Tech: React Native, NodeJS, Expo</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+      <div id="gallery-tab" class="tab-pane fade" role="tabpanel">
+        <div class="container-md">
+          <div class="row">
+            <div class="col-sm py-2">
+              <img id="img" src="img/todo-wf1.PNG" width="450px" />
+            </div>
+            <div class="col-sm py-2">
+              <img id="img" src="img/todo-wf2.PNG" width="450px" />
+            </div>
+            <div class="col-sm py-2">
+              <img id="img" src="img/undg-hi3.PNG" width="165px" />
+            </div>
+            <div class="col-sm py-2">
+              <img id="img" src="img/ucantu-wf.PNG" width="600px" />
+            </div>
+            <div class="col-sm py-2">
+              <img id="img" src="img/undg-hi1.PNG" width="450px" />
+            </div>
+            <div class="col-sm py-2">
+              <img id="img" src="img/exfries-wf.PNG" width="750px" />
+            </div>
+            <div class="col-sm py-2">
+              <img id="img" src="img/studycard-wf.PNG" width="400px" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="contact-tab" class="tab-pane fade" role="tabpanel">
+        <footer
+          id="cmMini"
+          class="container-md-15 mb-3 rounded border border-primary"
+        >
+          <header id="contact">
+            <h2>CONTACT ME</h2>
+          </header>
+          <nav>
+            <a
+              href="https://www.linkedin.com/in/leigh-adams-3a6a892b7"
+              target="_blank"
+              ><img src="img/LinkedIn-Blue-26@2x.png"
+            /></a>
+            <a href="mailto:spacecanari@gmail.com?subject=Portfolio Inquiry"
+              ><img src="img/envelope.png" width="80px"
+            /></a>
+            <a href="Leigh_Adams_Resume.pdf" target="_blank"
+              ><img src="img/resume.png" width="80px"
+            /></a>
+          </nav>
+        </footer>
       </div>
     </div>
-    <footer id="cmMini" class="container-md-15 mb-3 rounded border border-primary">
-      <header id="contact"><h2>CONTACT ME</h2></header>
-        <nav>
-          <a href="www.linkedin.com/in/leigh-adams-3a6a892b7" target="_blank"><img src="img/LinkedIn-Blue-26@2x.png"></a>
-          <a href="mailto:spacecanari@gmail.com?subject=Portfolio Inquiry"><img src="img/icons8-email-64.png"></a>
-        </nav>
+    <footer class="smth">
+      <p>2024-2025 - Leigh Adams</p>
     </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

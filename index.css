@@ -114,22 +114,77 @@
     padding: 1px;
     background-color: #361FAD;
   }
+  #prof-pic{
+    margin: 5px;
+    padding: 5px;
+  }
+  #parag{
+    font-size: 25px;
+    margin: 5px;
+    padding: 25px;
+    align-items: center;
+    text-align: left;
+    border: 1px solid #361FAD;
+    border-radius: 8px;
+    background-color: #361FAD;
+  }
   #aboutMe{
     padding: 3px;
-    margin: 10px;
-    background-color: #361FAD;
+    margin-top: 20px;
+    margin-right: 3%;
+    margin-left: 3%;
     font-size: 20px;
   }
+  #pBar{
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    font-size: 25px;
+  }
+  #skillSect{
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+  .colorOne{
+    background-color: #361FAD;
+  }
+  .colorTwo{
+    background-color: #502097;
+  }
+  .colorThree{
+    background-color: #662184;
+  }
+  .colorFour{
+    background-color: #7C2271;
+  }
+  .colorFive{
+    background-color: #BF2438;
+  }
+  .colorSix{
+    background-color: #D72523;
+  }
+  .colorSeven{
+    background-color: #E92613;
+  }
+  .colorEight{
+    background-color: #FF2700;
+  }
+  
   footer{
     background-color: #361FAD;
     margin-top: 40px;
   }
   #cmMini{
     background-color: #361FAD;
-    padding: 10px;
-    padding-bottom: 50px;
+    padding: 5%;
     margin-top: 40px;
     margin-bottom: 0;
+  }
+  .smth{
+    background-color: #FEDBD8;
+    color: #fd887e;
+    padding: 10px;
+    padding-bottom: 0px;
   }
   .card-body{
     background-color: #361FAD;
